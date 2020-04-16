@@ -5,7 +5,7 @@
 ### Nível 02 - Node.Js
 | OK                 | Tipo    | Titulo                       | Repositório    |
 |--------------------|---------|------------------------------|:--------------:|
-| :white_check_mark: | Módulo  | Primeiro Projeto com Node.js | :construction:
+| :white_check_mark: | Módulo  | Primeiro Projeto com Node.js | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2002%20-%20Node/Aulas/primeiro-projeto-node)
 | :white_check_mark: | Desafio | Fundamentos do Node.js       | :construction:
 | :white_check_mark: | Módulo  | Iniciando back-end do app    | :construction:
 | :white_check_mark: | Desafio | Database upload              | :construction:
