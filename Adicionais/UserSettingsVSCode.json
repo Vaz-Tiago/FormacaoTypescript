@@ -1,0 +1,78 @@
+{
+  // Key para sincronização:
+  "sync.gist": "fce006c9927ec7dcaa297176106f455e",
+
+  // Define Tema
+  "workbench.colorTheme": "Dracula",
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
+  // Temas e icones SideBar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Config Tamanho e Família da fonte
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+
+  // Editor Config
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": true,
+
+  // eslint arruma ao salvar
+  "[javascript]":{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[javascriptreact]":{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[typescript]":{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[typescriptreact]":{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+
+  //emmet para arquivos jsx
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {"javascript": "javascriptreact" },
+
+  // Reguas limite de caracteres
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "files.associations": {
+  
+  },
+  "launch": {
+    
+  },
+  "window.zoomLevel": 0,
+
+}

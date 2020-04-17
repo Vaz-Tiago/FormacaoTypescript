@@ -1,0 +1,3 @@
+sudo docker run --name Gb11-Postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+Depois entrar no gerenciador de banco de dados e criar o um database: goBarberV2
