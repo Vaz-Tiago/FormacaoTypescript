@@ -7,8 +7,8 @@
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Primeiro Projeto com Node.js | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2002%20-%20Node/Aulas/primeiro-projeto-node)
 | :heavy_check_mark: | Desafio | Fundamentos do Node.js       | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase02-DesafioFundamentosNode)
-| :white_check_mark: | Módulo  | Iniciando back-end do app    | :ballot_box_with_check: :black_square_button: :black_square_button: :black_square_button: :black_square_button:
-| :white_check_mark: | Desafio | Database upload              | :construction:
+| :heavy_check_mark: | Módulo  | Iniciando back-end do app    | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/GoBarber2.0/backend) 
+| :x:                | Desafio | Database upload              | :construction:
 
 ### Aprendizado
 - Arquitetura de Software

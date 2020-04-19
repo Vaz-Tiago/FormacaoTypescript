@@ -26,6 +26,10 @@
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
+    // Ignorando variaveis não utilizadas com o nome _
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "argsIgnorePattern": "_"
+    }],
     "import/extensions":[
       "error",
       "ignorePackages",
