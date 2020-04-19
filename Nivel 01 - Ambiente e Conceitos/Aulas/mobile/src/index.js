@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
 
   project: {
     color: '#fff',
+    backgroundColor: '#333333',
     fontSize: 26,
     fontWeight: 'bold'
   },
