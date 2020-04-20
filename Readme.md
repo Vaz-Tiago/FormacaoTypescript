@@ -2,20 +2,39 @@
 
 ## Repositório de Estudos - Javascript | Typescript
 
+### Nível 03 - ReactJS
+
+| OK                 | Tipo    | Titulo                       | Repositório    |
+|--------------------|---------|------------------------------|:--------------:|
+| :x:                | Módulo  | Primeiro Projeto Com React   | :construction: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :construction:
+| :x:                | Desafio | Desafio: Fundamentos ReactJS | :construction: 
+
+### Aprendizado: 
+
+
 ### Nível 02 - Node.Js
+
 | OK                 | Tipo    | Titulo                       | Repositório    |
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Primeiro Projeto com Node.js | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2002%20-%20Node/Aulas/primeiro-projeto-node)
 | :heavy_check_mark: | Desafio | Fundamentos do Node.js       | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase02-DesafioFundamentosNode)
 | :heavy_check_mark: | Módulo  | Iniciando back-end do app    | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/GoBarber2.0/backend) 
-| :x:                | Desafio | Database upload              | :construction:
+| :heavy_check_mark: | Desafio | Database upload              | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase02-DesafioDatabaseUpload)
 
 ### Aprendizado
 - Arquitetura de Software
   - Routes, Models, Repository, Services, DTO - Data Tranfer Object
 - TypeORM
   - Migrations, Entities, decorators
+- Segurança
+  - Autenticação
+  - Conceitos de JWT(Json Web Token)
+  - Rotas autenticadas;
+- Tratamento de Exceções
+  - Estrutura para lidar com erros conhecidos da aplicação
+  - Global Exception Handler
 - Typescript, Typescript e um pouquinho mais de typescript....
+  
 
 ### Nível 01 - Conceitos Gerais
 | OK                 | Tipo    | Titulo                    | Repositório |
