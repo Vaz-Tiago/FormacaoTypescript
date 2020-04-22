@@ -6,10 +6,30 @@
 
 | OK                 | Tipo    | Titulo                       | Repositório    |
 |--------------------|---------|------------------------------|:--------------:|
-| :x:                | Módulo  | Primeiro Projeto Com React   | :construction: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :black_square_button: :construction:
-| :x:                | Desafio | Desafio: Fundamentos ReactJS | :construction: 
+| :heavy_check_mark: | Módulo  | Primeiro Projeto Com React   | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2003%20-%20React/Aulas/primeiro-projeto-react)
+| :x:                | Desafio | Fundamentos ReactJS          | :construction: 
+| :x:                | Módulo  | Inciando front-end web       | :construction: 
 
 ### Aprendizado: 
+- Configurações do projeto:
+  - Padronizações de Código e estruturas do projeto
+- States e Typescript
+  - Tipagem de state e utilização de interfaces
+- Rotas
+  - React-Router-Dom
+  - Rotas internas da aplicação
+  - Rotas parametrizadas
+- Consumo de API
+  - Axios
+  - Requisições simultâneas
+  - Mapeamento de resposta
+- Estilização
+  - Encapsulamento de Estilo
+  - Styled-Components
+    - CSS no TypeScript
+    - Estilização condicional
+    - Passando variáveis para o CSS
+
 
 
 ### Nível 02 - Node.Js
