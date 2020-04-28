@@ -8,18 +8,22 @@
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Primeiro Projeto Com React   | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2003%20-%20React/Aulas/primeiro-projeto-react)
 | :x:                | Desafio | Fundamentos ReactJS          | :construction: 
-| :x:                | Módulo  | Inciando front-end web       | :construction: 
+| :heavy_check_mark: | Módulo  | Inciando front-end web       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web) 
 | :x:                | Módulo  | Inciando Aplicativo Mobile   | :construction: 
 
 ### Aprendizado: 
 - Configurações do projeto:
   - Padronizações de Código e estruturas do projeto
+- Utilização de contexto
+  - Acesso a um state sem parentesco entre componentes
+  - Criaçao do próprio hook
 - States e Typescript
   - Tipagem de state e utilização de interfaces
 - Rotas
   - React-Router-Dom
   - Rotas internas da aplicação
   - Rotas parametrizadas
+  - Rotas restritas
 - Consumo de API
   - Axios
   - Requisições simultâneas
