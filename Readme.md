@@ -10,6 +10,7 @@
 | :x:                | Desafio | Fundamentos ReactJS          | :construction: 
 | :heavy_check_mark: | Módulo  | Inciando front-end web       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web) 
 | :x:                | Módulo  | Inciando Aplicativo Mobile   | :construction: 
+| :x:                | Desafio | Fundamentos React Native     | :construction: 
 
 ### Aprendizado: 
 - Configurações do projeto:
