@@ -7,7 +7,7 @@
 | OK                 | Tipo    | Titulo                       | Repositório    |
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Primeiro Projeto Com React   | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2003%20-%20React/Aulas/primeiro-projeto-react)
-| :x:                | Desafio | Fundamentos ReactJS          | :construction: 
+| :heavy_check_mark: | Desafio | Fundamentos ReactJS          | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase03-DesafioFundamentosReact/tree/master)
 | :heavy_check_mark: | Módulo  | Inciando front-end web       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web) 
 | :heavy_check_mark: | Módulo  | Inciando Aplicativo Mobile   | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/mobile)
 | :x:                | Desafio | Fundamentos React Native     | :construction: 
