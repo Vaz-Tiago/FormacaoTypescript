@@ -9,19 +9,20 @@
 | :heavy_check_mark: | Módulo  | Primeiro Projeto Com React   | [Visitar](https://github.com/Vaz-Tiago/GoStack-11/tree/master/Nivel%2003%20-%20React/Aulas/primeiro-projeto-react)
 | :x:                | Desafio | Fundamentos ReactJS          | :construction: 
 | :heavy_check_mark: | Módulo  | Inciando front-end web       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web) 
-| :x:                | Módulo  | Inciando Aplicativo Mobile   | :construction: 
+| :heavy_check_mark: | Módulo  | Inciando Aplicativo Mobile   | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/mobile)
 | :x:                | Desafio | Fundamentos React Native     | :construction: 
 
 ### Aprendizado: 
 - Configurações do projeto:
   - Padronizações de Código e estruturas do projeto
 - Utilização de contexto
-  - Acesso a um state sem parentesco entre componentes
+  - States com acesso globais
   - Criaçao do próprio hook
 - States e Typescript
   - Tipagem de state e utilização de interfaces
 - Rotas
   - React-Router-Dom
+  - Navigation
   - Rotas internas da aplicação
   - Rotas parametrizadas
   - Rotas restritas
@@ -30,11 +31,15 @@
   - Requisições simultâneas
   - Mapeamento de resposta
 - Estilização
+  - Densidade de pixels
+  - Status Bar
   - Encapsulamento de Estilo
   - Styled-Components
     - CSS no TypeScript
     - Estilização condicional
     - Passando variáveis para o CSS
+
+> Todo conhecimento pode ser utilizado no desenvolvimento mobile,
 
 
 
