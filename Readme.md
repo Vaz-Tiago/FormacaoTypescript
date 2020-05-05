@@ -39,7 +39,7 @@
     - Estilização condicional
     - Passando variáveis para o CSS
 
-> Todo conhecimento pode ser utilizado no desenvolvimento mobile,
+> Todo conhecimento pode ser utilizado no desenvolvimento mobile.
 
 
 
