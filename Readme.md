@@ -2,6 +2,33 @@
 
 ## Repositório de Estudos - Javascript | Typescript
 
+### Nível 04 - Arquitetura e Teste no Node
+| OK                 | Tipo    | Titulo                       | Repositório    |
+|--------------------|---------|------------------------------|:--------------:|
+| :heavy_check_mark: | Módulo  | Arquitetura e DDD            | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
+| :heavy_check_mark: | Módulo  | Testes e TDD                 | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
+
+
+### Aprendizado
+- Estrutura de Projeto
+  - Patterns
+  - Mapeamento de Features
+  - Separação de Reponsábilidades
+  - Modularização
+  - Injeção de dependências (Tsyringe)
+- Teste Unitários
+  - Conceitos
+  - Configuração de Ambiente (Jest)
+  - Aplicação de TDD
+- Disparo de Email
+  - Interfaces
+  - Containers
+  - Nodemailer
+  - Etherial
+  - Template Engine
+    - Handlebars
+
+    
 ### Nível 03 - ReactJS
 
 | OK                 | Tipo    | Titulo                       | Repositório    |
@@ -10,7 +37,7 @@
 | :heavy_check_mark: | Desafio | Fundamentos ReactJS          | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase03-DesafioFundamentosReact/tree/master)
 | :heavy_check_mark: | Módulo  | Inciando front-end web       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web) 
 | :heavy_check_mark: | Módulo  | Inciando Aplicativo Mobile   | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/mobile)
-| :x:                | Desafio | Fundamentos React Native     | :construction: 
+| :heavy_check_mark: | Desafio | Fundamentos React Native     | [Visitar](https://github.com/Vaz-Tiago/GoStack11-Fase03-DesafioFundamentosReactNative) 
 
 ### Aprendizado: 
 - Configurações do projeto:

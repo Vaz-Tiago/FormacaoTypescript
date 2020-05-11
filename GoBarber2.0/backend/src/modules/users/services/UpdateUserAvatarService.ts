@@ -1,12 +1,9 @@
 import { injectable, inject } from 'tsyringe';
 
-import path from 'path';
-import fs from 'fs';
-
 import User from '@modules/users/infra/typeorm/entities/User';
 
 import AppError from '@shared/errors/AppError';
-import uploadConfig from '@config/upload';
+import IStorageProvider from '@shared/container/providers/StorageProviders/models/IStorageProvider';
 import IUserRepository from '../repositories/IUsersRepository';
 
 interface IRequest {
@@ -18,6 +15,9 @@ class UpdateUserAvatarService {
   constructor(
     @inject('UsersRepository')
     private usersRepository: IUserRepository,
+
+    @inject('StorageProvider')
+    private storageProvider: IStorageProvider,
   ) {}
 
   public async execute({ user_id, avatarFileName }: IRequest): Promise<User> {
@@ -28,22 +28,12 @@ class UpdateUserAvatarService {
     }
 
     if (user.avatar) {
-      // Deletando avatar anterior
-      const userAvatarFilePath = path.join(uploadConfig.directory, user.avatar);
-      // retorna o status de um arquivo, porém apenas se ele existir.
-      // O que torna possível a verificação se existe ou não
-      const userAvatarExists = await fs.promises.stat(userAvatarFilePath);
-      if (userAvatarExists) {
-        // Deletando o arquivo
-        await fs.promises.unlink(userAvatarFilePath);
-      }
+      await this.storageProvider.deleteFile(user.avatar);
     }
 
-    // Salvando as alterações
+    const filename = await this.storageProvider.saveFile(avatarFileName);
+    user.avatar = filename;
 
-    user.avatar = avatarFileName;
-
-    // Caso não existe cria
     await this.usersRepository.save(user);
 
     return user;
