@@ -7,7 +7,9 @@
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Arquitetura e DDD            | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
 | :heavy_check_mark: | Módulo  | Testes e TDD                 | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
-
+| :x:                | Módulo  | MongoDB                      | :construction:
+| :x:                | Módulo  | Colocando em produção        | :construction:
+| :x:                | Módulo  | Cache e Segurança            | :construction:
 
 ### Aprendizado
 - Estrutura de Projeto
