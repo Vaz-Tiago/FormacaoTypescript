@@ -1,8 +1,12 @@
 import AppError from '@shared/errors/AppError';
+import FakeNotificationsRepository from '@modules/notifications/repositories/fakes/FakeNotificationsRepository';
+import FakeCacheRepository from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentService from './CreateAppointmentService';
 
 let fakeAppointmtsRepository: FakeAppointmentsRepository;
+let fakeNotificationsRepository: FakeNotificationsRepository;
+let fakeCacheRepository: FakeCacheRepository;
 let createAppointment: CreateAppointmentService;
 
 // Categoriza o código para facilitar a visualização:
@@ -10,7 +14,13 @@ describe('CreateAppointment', () => {
   // Criação das variaveis antes de cada teste, para evitar a repetição do código
   beforeEach(() => {
     fakeAppointmtsRepository = new FakeAppointmentsRepository();
-    createAppointment = new CreateAppointmentService(fakeAppointmtsRepository);
+    fakeNotificationsRepository = new FakeNotificationsRepository();
+    fakeCacheRepository = new FakeCacheRepository();
+    createAppointment = new CreateAppointmentService(
+      fakeAppointmtsRepository,
+      fakeNotificationsRepository,
+      fakeCacheRepository,
+    );
   });
   it('should be able to create a new appointment', async () => {
     jest.spyOn(Date, 'now').mockImplementationOnce(() => {

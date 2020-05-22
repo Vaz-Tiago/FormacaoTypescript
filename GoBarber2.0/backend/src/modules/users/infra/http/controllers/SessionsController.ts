@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 import AuthenticationUserService from '@modules/users/services/AuthenticationUserService';
+import { classToClass } from 'class-transformer';
 
 // Index, Show, Create, Update, Delete
 
@@ -14,9 +15,8 @@ class SessionsController {
       email,
       password,
     });
-    delete user.password;
 
-    return res.json({ user, token });
+    return res.json({ user: classToClass(user), token });
   }
 }
 

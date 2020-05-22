@@ -43,6 +43,9 @@ class AuthenticationUserService {
 
     const { secret, expiresIn } = authConfig.jwt;
 
+    if (!secret) {
+      throw new AppError('No secret provided');
+    }
     const token = sign({}, secret, {
       subject: user.id,
       expiresIn,

@@ -18,11 +18,10 @@
     }
   },
   {
-
     "name": "mongo",
     "type": "mongodb",
     "host": "localhost",
-    "port": 28017,
+    "port": 27017,
     "database": "goBarberV2",
     "useUnifiedTopology": true,
     "entities": [

@@ -2,15 +2,19 @@
 
 ## Repositório de Estudos - Javascript | Typescript
 
+### Nível 05 - Avançando em React
+| OK                 | Tipo    | Titulo                       | Repositório    |
+|--------------------|---------|------------------------------|:--------------:|
+| :x:                | Módulo  | React                        | :construction:
+
 ### Nível 04 - Arquitetura e Teste no Node
 | OK                 | Tipo    | Titulo                       | Repositório    |
 |--------------------|---------|------------------------------|:--------------:|
 | :heavy_check_mark: | Módulo  | Arquitetura e DDD            | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
 | :heavy_check_mark: | Módulo  | Testes e TDD                 | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
-| :x:                | Módulo  | MongoDB                      | :construction:
-| :x:                | Módulo  | Colocando em produção        | :construction:
-| :x:                | Módulo  | Cache e Segurança            | :construction:
-
+| :heavy_check_mark: | Módulo  | MongoDB e Notificações       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
+| :heavy_check_mark: | Módulo  | Cache (Redis) e Segurança    | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
+| :x:                | Desafio | Relacionamento Many to Many  | :construction:
 ### Aprendizado
 - Estrutura de Projeto
   - Patterns
@@ -29,6 +33,14 @@
   - Etherial
   - Template Engine
     - Handlebars
+- Cache
+  - Criando cache de buscas.
+  - Banco de Dados Redis.
+- Segurança
+  - Validação de dados
+  - Variáveis ambiente
+  - Limitando requests
+
 
     
 ### Nível 03 - ReactJS

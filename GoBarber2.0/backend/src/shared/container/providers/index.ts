@@ -1,4 +1,5 @@
 import { container } from 'tsyringe';
+import './CacheProvider';
 
 import IStorageProvider from './StorageProviders/models/IStorageProvider';
 import DiskStorageProvider from './StorageProviders/implementations/DiskStorageProvider';

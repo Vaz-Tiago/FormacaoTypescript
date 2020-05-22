@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
+
 import UpdateProfileService from '@modules/users/services/UpdateProfileService';
 import ShowProfileService from '@modules/users/services/ShowProfileService';
 
@@ -10,7 +12,7 @@ export default class ProfileController {
     const showProfile = container.resolve(ShowProfileService);
     const user = await showProfile.execute(id);
 
-    return res.json(user);
+    return res.json(classToClass(user));
   }
 
   public async update(req: Request, res: Response): Promise<Response> {
@@ -27,8 +29,6 @@ export default class ProfileController {
       old_password,
     });
 
-    delete userUpdate.password;
-
-    return res.json(userUpdate);
+    return res.json(classToClass(userUpdate));
   }
 }

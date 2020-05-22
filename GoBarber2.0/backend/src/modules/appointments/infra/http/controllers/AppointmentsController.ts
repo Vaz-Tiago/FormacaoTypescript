@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import { parseISO } from 'date-fns';
 import { container } from 'tsyringe';
 
 import CreateAppointmentService from '@modules/appointments/services/CreateAppointmentService';
@@ -9,8 +8,6 @@ class AppointmentsController {
     const { provider_id, date } = req.body;
     const user_id = req.user.id;
 
-    const parsedDate = parseISO(date);
-
     // Utilizar a injeção de dependencia não instancia mais diretamente a classe
     // intancia-se o container que possuí essa configuração de dependencias
     // const createAppointment = new CreateAppointmentService();
@@ -19,7 +16,7 @@ class AppointmentsController {
     const appointment = await createAppointment.execute({
       provider_id,
       user_id,
-      date: parsedDate,
+      date,
     });
 
     return res.json(appointment);
