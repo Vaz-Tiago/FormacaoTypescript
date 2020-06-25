@@ -11,18 +11,24 @@ import api from '../services/api';
 // Necessário uma interface com os dados que ficarão disponíveis
 interface AuthState {
   token: string;
-  user: object;
+  user: User;
 }
-
 interface SignInCredentials {
   email: string;
   password: string;
 }
 interface AuthContextData {
-  user: object;
+  user: User;
   signIn(credentials: SignInCredentials): Promise<void>;
   signOut(): void;
   loading: boolean;
+}
+
+interface User {
+  id: string;
+  name: string;
+  email: string;
+  avatar_url: string;
 }
 
 // hack para passar um objeto vazio no construtor do context
@@ -43,6 +49,7 @@ const AuthProvider: React.FC = ({ children }) => {
       // Multiget retorna um array com chave valor;
       // por isso é definido a posição [1], ela armazena o valor
       if (token[1] && user[1]) {
+        api.defaults.headers.authorization = `Bearer ${token[1]}`;
         setData({ token: token[1], user: JSON.parse(user[1]) });
       }
 
@@ -69,6 +76,8 @@ const AuthProvider: React.FC = ({ children }) => {
       ['@GoBarber:token', token],
       ['@GoBarber:token', JSON.stringify(user)],
     ]);
+
+    api.defaults.headers.authorization = `Bearer ${token}`;
 
     setData({ token, user });
   }, []);

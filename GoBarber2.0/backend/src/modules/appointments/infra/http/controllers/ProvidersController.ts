@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
+
 import ListProvidersService from '@modules/appointments/services/ListProvidersService';
 
 export default class ProvidersController {
@@ -9,6 +11,6 @@ export default class ProvidersController {
     const listProviders = container.resolve(ListProvidersService);
     const providers = await listProviders.execute(id);
 
-    return res.status(200).json(providers);
+    return res.status(200).json(classToClass(providers));
   }
 }

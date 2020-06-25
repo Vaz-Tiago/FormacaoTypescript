@@ -158,6 +158,3 @@ const SignIn: React.FC = () => {
 };
 
 export default SignIn;
-
-// TODO Robert Martin - Clean Code
-// Uncle Bob

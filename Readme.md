@@ -2,10 +2,30 @@
 
 ## Repositório de Estudos - Javascript | Typescript
 
-### Nível 05 - Avançando em React
-| OK                 | Tipo    | Titulo                       | Repositório    |
-|--------------------|---------|------------------------------|:--------------:|
-| :x:                | Módulo  | React                        | :construction:
+### Nível 05 - Avançando em FrontEnd (React e React Native)
+| OK                 | Tipo    | Titulo                               | Repositório    |
+|--------------------|---------|--------------------------------------|:--------------:|
+| :heavy_check_mark: | Módulo  | REACT - Recuperação de Senha         | :construction:
+| :heavy_check_mark: | Módulo  | REACT - Criação de Dashboard         | :construction:
+| :heavy_check_mark: | Módulo  | REACT - Página de perfil de usuário  | :construction:
+| :heavy_check_mark: | Desafio | REACT - CRUD Completo com API        | [Visitar](https://github.com/Vaz-Tiago/Desafio10-ReactCRUD)
+| :x:                | Módulo  | R. NATIVE - Finalizando Aplicativo   | :construction:
+
+
+### Aprendizado
+**React**
+- React Hooks
+- React Context
+  - Ferramenta nativa que funciona com Redux
+- Componentização
+  - Quando criar um componente
+  - Comunicação entre componentes
+  - Dividindo as responsabilidades
+  - Reutilizando código
+- Styled-Component
+  - Turbinando CSS
+  - Organizando a estilização da aplicação
+
 
 ### Nível 04 - Arquitetura e Teste no Node
 | OK                 | Tipo    | Titulo                       | Repositório    |
@@ -14,7 +34,8 @@
 | :heavy_check_mark: | Módulo  | Testes e TDD                 | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
 | :heavy_check_mark: | Módulo  | MongoDB e Notificações       | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
 | :heavy_check_mark: | Módulo  | Cache (Redis) e Segurança    | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/backend)
-| :x:                | Desafio | Relacionamento Many to Many  | :construction:
+| :heavy_check_mark: | Desafio | Relacionamento Many to Many  | [Visitar](https://github.com/Vaz-Tiago/Desafio09-Node-DatabaseRelations)
+
 ### Aprendizado
 - Estrutura de Projeto
   - Patterns

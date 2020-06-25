@@ -20,11 +20,17 @@ import { Container, Error } from './styles';
 // Só colocar algo se desejar sobrescrever
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
+  containerStyle?: object;
   icon?: React.ComponentType<IconBaseProps>; // Para passar um componente como tipo
 }
 // Renomear o arumento icon para Icon - com I maiusculo
 // Pois todo componente React deve iniciar com letra maiuscula
-const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
+const Input: React.FC<InputProps> = ({
+  name,
+  containerStyle,
+  icon: Icon,
+  ...rest
+}) => {
   // Lidando com refencia
   // Acessa direto o value do objeto no dom, pula o state do react
   const inputRef = useRef<HTMLInputElement>(null);
@@ -52,7 +58,12 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
   }, []);
 
   return (
-    <Container isErrored={!!error} isFilled={isFilled} isFocused={isFocused}>
+    <Container
+      style={containerStyle}
+      isErrored={!!error}
+      isFilled={isFilled}
+      isFocused={isFocused}
+    >
       {Icon && <Icon size={20} />}
       {/* Propriedade ref para facilitar o acesso direto na dom */}
       <input
