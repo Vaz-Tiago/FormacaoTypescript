@@ -5,9 +5,9 @@
 ### Nível 05 - Avançando em FrontEnd (React e React Native)
 | OK                 | Tipo    | Titulo                               | Repositório    |
 |--------------------|---------|--------------------------------------|:--------------:|
-| :heavy_check_mark: | Módulo  | REACT - Recuperação de Senha         | :construction:
-| :heavy_check_mark: | Módulo  | REACT - Criação de Dashboard         | :construction:
-| :heavy_check_mark: | Módulo  | REACT - Página de perfil de usuário  | :construction:
+| :heavy_check_mark: | Módulo  | REACT - Recuperação de Senha         | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web)
+| :heavy_check_mark: | Módulo  | REACT - Criação de Dashboard         | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web)
+| :heavy_check_mark: | Módulo  | REACT - Página de perfil de usuário  | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web)
 | :heavy_check_mark: | Desafio | REACT - CRUD Completo com API        | [Visitar](https://github.com/Vaz-Tiago/Desafio10-ReactCRUD)
 | :x:                | Módulo  | R. NATIVE - Finalizando Aplicativo   | :construction:
 
