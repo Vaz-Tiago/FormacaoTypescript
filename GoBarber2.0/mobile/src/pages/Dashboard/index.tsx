@@ -19,6 +19,8 @@ import {
   ProviderName,
   ProviderMeta,
   ProviderMetaText,
+  Exit,
+  ExitText,
 } from './styles';
 
 export interface Provider {
@@ -28,9 +30,9 @@ export interface Provider {
 }
 
 const Dashboard: React.FC = () => {
-  const [providers, setProviders] = useState<Providers[]>([]);
+  const [providers, setProviders] = useState<Provider[]>([]);
 
-  const { signOut, user } = useAuth();
+  const { user, signOut } = useAuth();
   const { navigate } = useNavigation();
 
   useEffect(() => {
@@ -41,8 +43,8 @@ const Dashboard: React.FC = () => {
 
   const navigateToProfile = useCallback(() => {
     // navigate('Profile');
-    signOut();
-  }, [signOut]);
+    navigate('Profile');
+  }, [navigate]);
 
   const navigateToCreateAppointment = useCallback(
     (providerId: string) => {
@@ -57,6 +59,9 @@ const Dashboard: React.FC = () => {
           Bem vindo, {'\n'}
           <UserName>{user.name}</UserName>
         </HeaderTitle>
+        <Exit onPress={() => signOut()}>
+          <ExitText>Sair</ExitText>
+        </Exit>
 
         <ProfileButton onPress={navigateToProfile}>
           <UserAvatar source={{ uri: user.avatar_url }} />

@@ -27,6 +27,10 @@ export const UserName = styled.Text`
   font-family: 'RobotoSlab-Medium';
 `;
 
+export const Exit = styled.TouchableOpacity``;
+
+export const ExitText = styled.Text``;
+
 export const ProfileButton = styled.TouchableOpacity``;
 
 export const UserAvatar = styled.Image`
