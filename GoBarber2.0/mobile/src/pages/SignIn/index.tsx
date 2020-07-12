@@ -111,7 +111,7 @@ const SignIn: React.FC = () => {
                 keyboardType="email-address" // Mostra o @ no teclado
                 name="email"
                 icon="mail"
-                placeholder="E-mail"
+                placeholder="Email"
                 returnKeyType="next" // Altera aparencia do button de contexto
                 onSubmitEditing={() => {
                   passwordInputRef.current?.focus();
