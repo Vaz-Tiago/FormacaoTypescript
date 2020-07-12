@@ -9,7 +9,8 @@
 | :heavy_check_mark: | Módulo  | REACT - Criação de Dashboard         | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web)
 | :heavy_check_mark: | Módulo  | REACT - Página de perfil de usuário  | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/web)
 | :heavy_check_mark: | Desafio | REACT - CRUD Completo com API        | [Visitar](https://github.com/Vaz-Tiago/Desafio10-ReactCRUD)
-| :x:                | Módulo  | R. NATIVE - Finalizando Aplicativo   | :construction:
+| :heavy_check_mark: | Módulo  | R. NATIVE - Finalizando Aplicativo   | [Visitar](https://github.com/Vaz-Tiago/FormacaoTypescript/tree/master/GoBarber2.0/mobile)
+| :heavy_check_mark: | Desafio | R. NATIVE - CRUD Completo com API    | [Visitar](https://github.com/Vaz-Tiago/Desafio11ReactNative)
 
 
 ### Aprendizado
@@ -25,6 +26,9 @@
 - Styled-Component
   - Turbinando CSS
   - Organizando a estilização da aplicação
+  
+**React Native**
+- Todo aprenizado em React é reutilizado em React Native.
 
 
 ### Nível 04 - Arquitetura e Teste no Node
